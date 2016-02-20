@@ -1,3 +1,34 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://dencold.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "dencold"
+paginate = 5
+Copyright = "All rights reserved - 2016"
+canonifyurls = true
+
+[params]
+  description = "fiat lux"
+  cover = "images/site/cover.jpg"
+  author = "Dennis Coldwell"
+  authorlocation = "Berkeley, CA"
+  authorwebsite = "http://dencold.com"
+  bio= "my bio"
+  logo = "images/site/avatar.jpg"
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..." 
+  githubName = "dencold"
+  twitterName = "dencold"
+  hideHUGOSupport = true
+
+[[menu.main]]
+  name = "Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = -110
+  identifier = "about"
+  url = "/about"
+  
