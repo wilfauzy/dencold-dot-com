@@ -8,19 +8,27 @@ canonifyurls: true
 
 params:
   description: "fiat lux"
-  cover: "images/site/cover.jpg"
-  author: "Dennis Coldwell"
-  authorlocation: "Berkeley, CA"
-  authorwebsite: "http://dencold.com"
-  authoravatar: "images/site/avatar.jpg"
-  bio: "my bio"
-  logo: "images/site/NewIdea.svg"
+  cover: "/images/site/cover.jpg"
+  author: "dennis"
+  logo: "/images/site/S1R3withSlant.svg"
   googleAnalyticsUserID: ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink: "http://feeds.feedburner.com/..." 
   githubName: "dencold"
   twitterName: "dencold"
   hideHUGOSupport: true
+  highlightjsTheme: "tomorrow-night-eighties"
+  shares:
+    twitter: false
+    facebook: true
+    google-plus: true
+
+author:
+  dennis:
+    name: "Dennis Coldwell"
+    location: "Berkeley, CA"
+    bio: "trying to leave things better than I found them"
+    thumbnail: "/images/site/avatar.jpg"
 
 menu:
   main:
