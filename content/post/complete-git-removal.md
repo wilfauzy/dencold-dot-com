@@ -1,12 +1,12 @@
-+++
-author = ""
-date = "2016-02-18T21:53:28-08:00"
-draft = false
-title = "Going Nuclear with Git Removal"
-tags = ["git"]
-image = "images/content/2016/pumpkin.jpg"
-share = true        # set false to share buttons
-+++
+---
+author: "dennis"
+date: "2016-02-18T21:53:28-08:00"
+draft: false
+title: "Going Nuclear with Git Removal"
+tags: ["git"]
+image: "/images/content/2016/pumpkin.jpg"
+share: true        # set false to share buttons
+---
 
 We recently had a developer commit several large movie files into the git repository. Although this can be reverted with a simple call to ```git rm```, it doesn't entirely solve the problem. Since git is just tracking snapshots, the mp4 is still in the repository's history. Every time you initiate a ```git clone```, you will be pulling down that mp4 file. This is unnecessary bloat and should be removed. Here's a guide to completely torch a file from git so that it is as if it never existed in the first place.
 

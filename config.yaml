@@ -19,9 +19,9 @@ params:
   hideHUGOSupport: true
   highlightjsTheme: "tomorrow-night-eighties"
   shares:
-    twitter: false
+    twitter: true
     facebook: true
-    google-plus: true
+    google-plus: false
 
 author:
   dennis:
