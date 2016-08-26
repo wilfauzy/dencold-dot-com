@@ -9,6 +9,7 @@ canonifyurls: true
 params:
   description: "fiat lux"
   cover: "/images/site/cover.jpg"
+  fullCover: false
   author: "dennis"
   logo: "/images/site/S1R3withSlant.svg"
   googleAnalyticsUserID: ""
@@ -18,14 +19,16 @@ params:
   twitterName: "dencold"
   hideHUGOSupport: true
   highlightjsTheme: "tomorrow-night-eighties"
-  shares:
+  sharing:
     twitter: true
     facebook: true
     google-plus: false
 
 author:
   dennis:
-    name: "Dennis Coldwell"
+    id: "dennis"
+    firstName: "Dennis"
+    lastName: "Coldwell"
     location: "Berkeley, CA"
     bio: "trying to leave things better than I found them"
     thumbnail: "/images/site/avatar.jpg"
