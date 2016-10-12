@@ -54,5 +54,5 @@ menu:
     - name: "About"
       weight: -110
       identifier: "about"
-      url: "/about"
+      url: "/author/dennis"
   
