@@ -3,6 +3,7 @@ title: "Dennis Coldwell"
 author: "dennis"
 date: "2016-09-08T21:53:28-08:00"
 draft: false
+cover: "/images/content/2016/jackson-hole.jpg"
 ---
 
 # Bio
