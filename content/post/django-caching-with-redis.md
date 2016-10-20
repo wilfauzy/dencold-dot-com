@@ -4,8 +4,6 @@ Django has a pretty good [documentation page](https://docs.djangoproject.com/en/
 
 Here's a little guide to get up and running with Redis to remedy this omission on the django docs.
 
-<!-- more -->
-
 ## Redis Features
 Redis also has a lot of features that memcached is lacking:
 
@@ -42,7 +40,7 @@ $ sudo make test
 
 If everything worked, you'll see something like this:
 
-![](/images/2014/redis_make_test.png)
+![](/images/content/2014/redis_make_test.png)
 
 If so, you're good to go! Let's get the Redis server up and running:
 
@@ -52,7 +50,7 @@ $ src/redis-server
 
 Which should look like this:
 
-![](/images/2014/redis_running.png)
+![](/images/content/2014/redis_running.png)
 
 Props to [antirez](http://antirez.com/) for the awesome use of ascii art. Also, a note that in a production environment, we'd want to use a process control system (like [supervisor](http://supervisord.org/)) and not run the server in the foreground. For the purposes of learning, it will be helpful to monitor what is going on with the server.
 
@@ -80,15 +78,15 @@ The two major projects that provide Redis bindings to django are:
 
 It can be a little hard to distinguish between the two libraries. They both have similar github metrics:
 
-![](/images/2014/django-redis-stargazers.png)
+![](/images/content/2014/django-redis-stargazers.png)
 
 vs.
 
-![](/images/2014/django-redis-cache-stargazers.png)
+![](/images/content/2014/django-redis-cache-stargazers.png)
 
 Not sure which to choose, I decided to conduct a "scientific" poll on the #django IRC channel, here are the results:
 
-![](/images/2014/django_irc_redis.png)
+![](/images/content/2014/django_irc_redis.png)
 
 Pretty inconclusive. Digging deeper, it turns out that `django-redis` actually began as a fork of `django-redis-cache`. If you dig into the [source code](https://github.com/niwibe/django-redis) you'll see that a lot of the core classes are still very similar. Also, `django-redis` still installs to the same "redis_cache" namespace as `django-redis-cache`. This means if you were ever to install both packages, you'd end up with a namespace clash. This has been [raised as an issue](https://github.com/niwibe/django-redis/issues/45) and the author has acknowledged the problem.
 
