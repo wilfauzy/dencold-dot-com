@@ -1,4 +1,12 @@
-# Django Caching with Redis
+---
+author: "dennis"
+date: "2014-01-08T16:18:29-08:00"
+draft: false
+title: "Django Caching with Redis"
+tags: ["django", "redis"]
+image: "/images/content/2014/chestnut-cache.jpg"
+share: true
+---
 
 Django has a pretty good [documentation page](https://docs.djangoproject.com/en/dev/topics/cache/) for enabling caching on the framework. It gives an overview of why caches are a good idea, when to use them, and the various configuration options to make your backend play nice with Django. However, of the four backends mentioned in the docs (memcached, database, filesystem, local-memory), Redis is not listed as an option. This is surprising as Redis is a key-value store that works very well as a cache server and [compares favorably to memcached](http://oldblog.antirez.com/post/redis-memcached-benchmark.html).
 
