@@ -64,7 +64,7 @@ Props to [antirez](http://antirez.com/) for the awesome use of ascii art. Also, 
 
 ## Django bindings
 
-Redis is installed, running, and ready to cache stuff. But how do we get our django application to communicate with the Redis server? If you look into the official django docs, you'll see a full [writeup for memcached](https://docs.djangoproject.com/en/1.5/topics/cache/#memcached), here's what that setup looks like in your `settings.py`:
+Redis is installed, running, and ready to cache stuff. But how do we get our django application to communicate with the Redis server? If you look into the official django docs, you'll see a full [writeup for memcached](https://docs.djangoproject.com/en/dev/topics/cache/#memcached), here's what that setup looks like in your `settings.py`:
 
 ```python
 CACHES = {
@@ -180,7 +180,7 @@ That call would cache the "life_universe_everything" key for 3600 seconds -- one
 
 That's pretty much all you need to get started with Redis and django. You can now cache expensive calculations very easily in your view/model code. This can have a major impact to the response times on your site.
 
-This post has focused mostly on getting a Redis server up and functional, but it has  only scratched the surface of what you can do with the cache. The testing examples above use the [low level cache API](https://docs.djangoproject.com/en/1.5/topics/cache/#the-low-level-cache-api). However, you can also make use of [full site caching](https://docs.djangoproject.com/en/1.5/topics/cache/#the-per-site-cache), [per-view caching](https://docs.djangoproject.com/en/1.5/topics/cache/#the-per-view-cache), and [cached sessions](https://docs.djangoproject.com/en/1.5/topics/http/sessions/#using-cached-sessions).
+This post has focused mostly on getting a Redis server up and functional, but it has  only scratched the surface of what you can do with the cache. The testing examples above use the [low level cache API](https://docs.djangoproject.com/en/dev/topics/cache/#the-low-level-cache-api). However, you can also make use of [full site caching](https://docs.djangoproject.com/en/dev/topics/cache/#the-per-site-cache), [per-view caching](https://docs.djangoproject.com/en/dev/topics/cache/#the-per-view-cache), and [cached sessions](https://docs.djangoproject.com/en/dev/topics/http/sessions/#using-cached-sessions).
 
 Also, if you are really curious on how the cache is implemented, you can read my post analyzing cache records.
 
