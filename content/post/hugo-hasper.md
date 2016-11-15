@@ -25,6 +25,8 @@ Hapser has a couple of nice features out of the box:
 - full support for [highlightjs](https://highlightjs.org/) themes
 - splash image size user-configurable
 
+I keep a [CHANGELOG](https://github.com/dencold/hasper/blob/master/CHANGELOG.md) and use SemVer to help keep users abreast of any changes that may affect them.
+
 ### Attribution
 
 Hasper was originally [a fork](https://github.com/dencold/hugo-theme-casper) of the [hugo-theme-casper](https://github.com/vjeantet/hugo-theme-casper). However, the original author was not responding to [pull requests](https://github.com/vjeantet/hugo-theme-casper/pull/41), and I had several changes I needed, so I decided to create Hasper instead.
