@@ -4,7 +4,7 @@ date: "2016-11-14T08:27:49-08:00"
 draft: false
 title: "Introducing Hasper"
 tags: ["hugo", "hasper"]
-image: "/images/content/2016/aws-ecr-cover.jpg"
+image: "/images/content/2016/graciela_hasper.jpg"
 share: true
 ---
 
