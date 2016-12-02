@@ -10,6 +10,8 @@ share: true
 
 Hasper is a theme for the static site generator [hugo](https://gohugo.io/) that I started hacking primarily for the purposes of serving up content on my own blog [dencold.com](http://www.dencold.com). It sources *heavily* from the beautiful [casper](https://github.com/TryGhost/Casper) theme by the folks at [Ghost](https://ghost.org/), hence the name: "Hasper". If you like the styling of casper and use hugo, Hasper may be just what you are looking for.
 
+You can get a sense for what the Hasper theme looks like by browsing around this site. Hasper is responsible for the layout and presentation of everything you see. I also run the latest version of the code here.
+
 Hasper is open source (MIT licensed) and can be found on github at: https://github.com/dencold/hasper. The README there goes into more detail on how you can install and use Hasper/Hugo for your own personal website.
 
 I welcome comments and feedback via [github issues](https://github.com/dencold/hasper/issues) or [pull requests](https://github.com/dencold/hasper/pulls). Please let me know if you are using the theme and how it can be improved.
