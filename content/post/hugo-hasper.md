@@ -8,7 +8,7 @@ image: "/images/content/2016/graciela_hasper.jpg"
 share: true
 ---
 
-Hasper is a theme for the static site generator [hugo](https://gohugo.io/) that I started hacking primarily for the purposes of serving up content on my own blog [dencold.com](http://www.dencold.com). It sources *heavily* from the beautiful [casper](https://github.com/TryGhost/Casper) theme by the folks at [Ghost](https://ghost.org/), hence the name: "Hasper". If you like the styling of casper and use hugo, Hasper may be just what you are looking for.
+[Hasper](https://github.com/dencold/hasper) is a theme for the static site generator [hugo](https://gohugo.io/) that I started hacking primarily for the purposes of serving up content on my own blog [dencold.com](http://www.dencold.com). It sources *heavily* from the beautiful [casper](https://github.com/TryGhost/Casper) theme by the folks at [Ghost](https://ghost.org/), hence the name: "Hasper". If you like the styling of casper and use hugo, Hasper may be just what you are looking for.
 
 You can get a sense for what the Hasper theme looks like by browsing around this site. Hasper is responsible for the layout and presentation of everything you see. I also run the latest version of the code here. To give you a quick idea of some of the features in Hasper, here are some screen captures with some highlights:
 
