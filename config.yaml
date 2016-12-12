@@ -47,12 +47,16 @@ author:
 
 menu:
   main:
-    - name: "Blog"
+    - name: "Home"
       weight: -120
-      identifier: "blog"
+      identifier: "home"
       url: "/"
     - name: "About"
       weight: -110
       identifier: "about"
       url: "/author/dennis"
+    - name: "Posts"
+      weight: -100
+      identifier: "posts"
+      url: "/post"
   
