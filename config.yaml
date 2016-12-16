@@ -26,7 +26,7 @@ params:
   logo: "/images/site/S1R3withSlant.svg"
   googleAnalyticsUserID: ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink: "http://feeds.feedburner.com/..." 
+  RSSLink: "http://feeds.feedburner.com/dencold" 
   githubName: "dencold"
   twitterName: "dencold"
   hideHUGOSupport: true
