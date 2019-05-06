@@ -190,7 +190,7 @@ Buuuuuttttt, where the hell does the root package `@vue/cli-plugin-babel` come f
 
 So, I'm getting a warning for a package that is depended by another package that _itself_ is a dependency for the original package that was actually listed as a project dependency. This is a light version of what craziness in package management commonly known as [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell) in js development.
 
-So, now we've figured out where these warnings are coming from, what do we do about them? The answer is...nothing. According to the project maintainers, these are [safe to ignore](https://github.com/vuejs/vue-cli/issues/3925#issuecomment-488564952) and are the result of transient dependencies that they don't have control over. ¯\_(ツ)_/¯
+So, now we've figured out where these warnings are coming from, what do we do about them? The answer is...nothing. According to the project maintainers, these are [safe to ignore](https://github.com/vuejs/vue-cli/issues/3925#issuecomment-488564952) and are the result of transient dependencies that they don't have control over. ¯\\\_(ツ)_/¯
 
 The next bit of output that is _actually_ helpful is this one:
 
